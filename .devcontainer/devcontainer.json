@@ -6,6 +6,6 @@
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.8",
 
 	// install requirements specified in repository
-	"postCreateCommand": "pip3 install -r requirements.txt"
+	"postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt"
 }
 
