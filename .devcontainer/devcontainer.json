@@ -1,11 +1,10 @@
 {
 	"name": "Python 3",
 
-	// Docker image for your python version (here version 3.8)
+	// Docker image for your python version (here version 3.10)
 	// Alternative: use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.8",
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.10",
 
 	// install requirements specified in repository
-	"postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt"
+	"postCreateCommand": "pip3 install -r requirements.txt"
 }
-
