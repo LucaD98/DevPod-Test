@@ -6,5 +6,5 @@
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.10",
 
 	// install requirements specified in repository
-	"postCreateCommand": "pip freeze > requirements.txt && pip install -r requirements.txt"
+	"postCreateCommand": "pip3 install -r requirements.txt"
 }
